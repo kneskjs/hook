@@ -1,5 +1,6 @@
 const _ = require('lodash');
-const Util = require('@knesk/util')();
+const util = require('@knesk/util');
+const Util = new util();
 
 module.exports = class Filter {
 	constructor() {

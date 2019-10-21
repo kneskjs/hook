@@ -12,4 +12,4 @@ class Hook {
     }
 }
 
-module.exports = () => new Hook()
+module.exports = Hook
