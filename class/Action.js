@@ -1,5 +1,5 @@
 var _ = require('lodash')
-const util = require('@knesk/util');
+const util = require('@kneskjs/util');
 const Util = new util();
 
 module.exports = class Action {
